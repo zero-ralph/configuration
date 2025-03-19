@@ -1,4 +1,4 @@
-package main
+package config
 
 const (
 	DEFAULT_CONFIG_FILE_NAME string = "config"
