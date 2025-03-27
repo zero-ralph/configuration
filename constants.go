@@ -15,6 +15,7 @@ const (
 	jwtHourLifeSpan = jwt + ".hourLifeSpan"
 	jwtBearerPrefix = jwt + ".bearerPrefix"
 
+
 	redis         = "redis"
 	redisHost     = redis + ".host"
 	redisPort     = redis + ".port"
