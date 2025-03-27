@@ -13,6 +13,8 @@ const (
 	jwt             = "jwt"
 	jwtSecretKey    = jwt + ".secretKey"
 	jwtHourLifeSpan = jwt + ".hourLifeSpan"
+	jwtBearerPrefix = jwt + ".bearerPrefix"
+
 
 	redis         = "redis"
 	redisHost     = redis + ".host"
