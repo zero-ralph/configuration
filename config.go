@@ -49,3 +49,19 @@ func (configManager *ConfigManager) GetJWTSecretKey() string {
 func (configManager *ConfigManager) GetJWTHourLifeSpan() int {
 	return configManager.configInstance.GetInt(jwtHourLifeSpan)
 }
+
+func (configManager *ConfigManager) GetRedisHost() string {
+	return configManager.configInstance.GetString(redisHost)
+}
+
+func (configManager *ConfigManager) GetRedisPort() int {
+	return configManager.configInstance.GetInt(redisPort)
+}
+
+func (configManager *ConfigManager) GetRedisPassword() string {
+	return configManager.configInstance.GetString(redisPassword)
+}
+
+func (configManager *ConfigManager) GetRedisDatabase() int {
+	return configManager.configInstance.GetInt(redisDB)
+}
