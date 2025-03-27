@@ -9,4 +9,8 @@ const (
 	databasePort                    = database + ".port"
 	databaseUsername                = database + ".username"
 	databasePassword                = database + ".password"
+
+	jwt = "jwt"
+	jwtSecretKey = jwt + ".secretKey"
+	jwtHourLifeSpan = jwt + ".hourLifeSpan"
 )
