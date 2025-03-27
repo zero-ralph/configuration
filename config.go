@@ -46,7 +46,9 @@ func (configManager *ConfigManager) GetJWTSecretKey() string {
 	return configManager.configInstance.GetString(jwtSecretKey)
 }
 
-func (configManager )
+func (configManager *ConfigManager) GetJWTBearerPrefix() string {
+	return configManager.configInstance.GetString(jwtBearerPrefix)
+}
 
 func (configManager *ConfigManager) GetJWTHourLifeSpan() int {
 	return configManager.configInstance.GetInt(jwtHourLifeSpan)
